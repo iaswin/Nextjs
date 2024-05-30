@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div.gridcontainer
+    {
+       
+        height: 25px;
+        width: 200px;
+        border: 2px solid beige;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+
+         grid-template-columns: 150px 150px 150px;
+        grid-gap: 20px;
+    }
+        .box
+        {
+            font-size: 20px;
+            background-color: blue;
+            color: tomato;
+            margin: auto;
+
+        }
+</style>
+<body>
+    
+    <div class="gridcontainer">
+        <div class="box" style="background-color: thistle;">1
+
+        </div>
+        <div class="box" style="background-color: beige;">2
+
+
+        </div>
+        <div class="box" style="background-color:chocolate ;">3
+            
+
+        </div>
+        <div class="box" style="background-color: rgb(212, 212, 15);">4
+            
+
+        </div>
+
+
+    </div>
+</body>
+</html>

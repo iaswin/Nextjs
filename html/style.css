@@ -1,0 +1,40 @@
+h2{
+    background-color: orange;
+    color: yellow;
+    border: 2px solid black;
+    border-color: wheat;
+    border-style: dotted;
+}
+h1
+{
+    border-color: burlywood;
+    border-width: 5px;
+}
+.hello
+{
+    background-color: red;
+    border: 0dvi;
+}
+.helloo
+{
+    border: 0cap;
+    color:yellowgreen;
+    box-shadow: yellow;
+}
+p{
+    text-align:justify;
+}
+
+.a
+{
+    list-style-type:georgian;
+}
+
+body{
+    background-color:royalblue;
+    background-image:url("https://th.bing.com/th/id/OIP.kf3rbDAdmf-urpG-Z05n-gHaH8?rs=1&pid=ImgDetMain");
+    background-repeat:no-repeat;
+    height: inherit;
+    width: auto;
+
+}
